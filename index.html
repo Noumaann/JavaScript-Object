@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object</title>
+</head>
+<body>
+    
+    <script>
+        //object 
+      /*  var a={
+            name : "nomi",
+            age : 24,
+            email : "noumaann79@gmail.com",
+            movies : ["Judwaa 2", "Zero", "Tubelight"],//In object there is array 
+
+            salary : function(){
+                return 25000;
+            }
+
+        }
+        document.write(a.salary());
+        console.log(a);
+        document.write(a);*/
+
+
+
+//this
+
+      /*  var a={
+            name : "nomi",
+            lname : "faisal",
+            age : 24,
+            email : "noumaann79@gmail.com",
+        
+    
+        salary : function(){
+                return 25000;
+            },
+    
+        fname : function(){
+            return this.name  +" "+ this.lname;
+            
+            }    
+
+        }
+        document.write(a.fname());*/
+        
+
+
+// Object -new Object
+
+     /*   var a= new Object();
+
+        a.name="nomi";
+        a.age=24;
+        a.place="Sindhanur";
+
+        console.log(a);
+        document.write(a.age);*/
+
+
+
+// Array of Object
+
+       /* var student=[
+            {name:"nomi", age:24},
+            {name:"zabi", age:29},
+        ]
+
+        for(var a=0; a<2; a++)
+            document.write(student[a].name+"<br>");
+            console.log(student);*/
+
+
+//const variable with Array and Object
+
+      /*  const a=[{
+            name: "nomi",
+            age: 24,
+        }]
+        a.name="faisal"//can change like this way
+
+        a={
+            name: "karan",//can't change
+            age:25
+        }
+
+        document.write(a);
+        console.log(a)*/
+
+
+// for in loop Object print
+
+     /*   var obj={
+            name: "nomi",
+            age :24,
+            email: "noumaann79@gmail.com"
+        }
+
+        for(var key in obj){       //for(var in obj)
+            document.write(key+":" +obj[key]+"<br>")
+        }*/
+
+
+//  Map Method
+
+        var a=[
+            {name:"nomi",  age:24},
+            {name:"faisal",  age:22},
+            {name:"furqan",  age:23},
+        ]
+
+        var b=a.map(test);
+        document.write(b);
+
+        function test(x){
+            return x.name+ "<br>";
+        }
+ 
+
+    </script>    
+</body>
+</html>
